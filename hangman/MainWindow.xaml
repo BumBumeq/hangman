@@ -1,0 +1,64 @@
+﻿<Window x:Class="hangman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:hangman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="240" Margin="2,439,0,0" VerticalAlignment="Top" Width="1260">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="A" FontSize="22" Grid.Column="0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ą" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="B" FontSize="22" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="C" FontSize="22" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ć" FontSize="22" Grid.Column="4" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="D" FontSize="22" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="E" FontSize="22" Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ę" FontSize="22" Grid.Column="7" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="139" Height="40"/>
+
+            <Button Content="F" FontSize="22" Grid.Column="0" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="G" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="H" FontSize="22" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="I" FontSize="22" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="J" FontSize="22" Grid.Column="4" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="K" FontSize="22" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="K" FontSize="22" Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ł" FontSize="22" Grid.Column="7" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="139" Height="40"/>
+
+            <Button Content="M" FontSize="22" Grid.Column="0" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="N" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ń" FontSize="22" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="O" FontSize="22" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ó" FontSize="22" Grid.Column="4" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="P" FontSize="22" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="R" FontSize="22" Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="S" FontSize="22" Grid.Column="7" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="139" Height="40"/>
+
+            <Button Content="Ś" FontSize="22" Grid.Column="0" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="T" FontSize="22" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="U" FontSize="22" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="W" FontSize="22" Grid.Column="3" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Y" FontSize="22" Grid.Column="4" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Z" FontSize="22" Grid.Column="5" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ź" FontSize="22" Grid.Column="6" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40"/>
+            <Button Content="Ż" FontSize="22" Grid.Column="7" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="139" Height="40" RenderTransformOrigin="0.5,0.5"/>
+        </Grid>
+    </Grid>
+</Window>
