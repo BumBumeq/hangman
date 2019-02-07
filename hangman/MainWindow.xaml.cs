@@ -23,27 +23,28 @@ namespace hangman
 
         private string[] words =
         {
-            "mieć węża w kieszeni",
-            "zjeść z kimś beczkę soli",
-            "koń trojański",
-            "ikarowe loty",
-            "słomiany zapał",
-            "powracać niczym bumerang",
-            "ciosać komuś kołki na głowie",
-            "pluć sobie w brodę",
-            "perlisty śmiech",
-            "w gorącej wodzie kąpany",
-            "ranny ptaszek",
-            "czarna owca",
-            "rzucać komuś kłody pod nogi",
-            "stajnia augiasza",
-            "mieć ptasi móżdżek",
-            "mieć głowę na karku",
-            "mieć duszę na ramieniu",
-            "szukać wiatru w polu"
+            "Mieć węża w kieszeni",
+            "Zjeść z kimś beczkę soli",
+            "Koń trojański",
+            "Ikarowe loty",
+            "Słomiany zapał",
+            "Powracać niczym bumerang",
+            "Ciosać komuś kołki na głowie",
+            "Pluć sobie w brodę",
+            "Perlisty śmiech",
+            "W gorącej wodzie kąpany",
+            "Ranny ptaszek",
+            "Czarna owca",
+            "Rzucać komuś kłody pod nogi",
+            "Stajnia Augiasza",
+            "Mieć ptasi móżdżek",
+            "Mieć głowę na karku",
+            "Mieć duszę na ramieniu",
+            "Szukać wiatru w polu"
         };
 
         private string choosen;
+        private string convertedChoosen;
         private Random randomGenerator;
 
         public MainWindow()
@@ -57,19 +58,43 @@ namespace hangman
             int randomNumber = randomGenerator.Next(0, words.Length);
             choosen = words[randomNumber];
 
-            this.word.Text = "";
-
             foreach (char letter in choosen)
             {
                 if (letter == ' ')
                 {
-                    this.word.Text += ' ';
+                    convertedChoosen += ' ';
                 }
                 else
                 {
-                    this.word.Text += '-';
+                    convertedChoosen += '-';
                 }
             }
+
+            this.word.Text = convertedChoosen;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.word.Text = "";
+
+            string tempChoosen = choosen.ToLower();
+            string tempConvertedChoosen = convertedChoosen;
+
+            convertedChoosen = "";
+
+            for (int i = 0; i < tempChoosen.Length; ++i)
+            {
+                if (tempChoosen[i] == ((sender as Button)?.Content.ToString().ToLower())[0])
+                {
+                    convertedChoosen += choosen[i];
+                }
+                else
+                {
+                    convertedChoosen += tempConvertedChoosen[i];
+                }
+            }
+
+            this.word.Text = convertedChoosen;
         }
     }
 }

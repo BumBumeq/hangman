@@ -38,41 +38,41 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
 
-                <Button Margin="2" Grid.Column="0" Grid.Row="0" Content="A"/>
-                <Button Margin="2" Grid.Column="1" Grid.Row="0" Content="Ą"/>
-                <Button Margin="2" Grid.Column="2" Grid.Row="0" Content="B"/>
-                <Button Margin="2" Grid.Column="3" Grid.Row="0" Content="C"/>
-                <Button Margin="2" Grid.Column="4" Grid.Row="0" Content="Ć"/>
-                <Button Margin="2" Grid.Column="5" Grid.Row="0" Content="D"/>
-                <Button Margin="2" Grid.Column="6" Grid.Row="0" Content="E"/>
-                <Button Margin="2" Grid.Column="7" Grid.Row="0" Content="Ę"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="0" Grid.Row="0" Content="A"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="1" Grid.Row="0" Content="Ą"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="2" Grid.Row="0" Content="B"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="3" Grid.Row="0" Content="C"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="4" Grid.Row="0" Content="Ć"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="5" Grid.Row="0" Content="D"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="6" Grid.Row="0" Content="E"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="7" Grid.Row="0" Content="Ę"/>
 
-                <Button Margin="2" Grid.Column="0" Grid.Row="1" Content="F"/>
-                <Button Margin="2" Grid.Column="1" Grid.Row="1" Content="G"/>
-                <Button Margin="2" Grid.Column="2" Grid.Row="1" Content="H"/>
-                <Button Margin="2" Grid.Column="3" Grid.Row="1" Content="I"/>
-                <Button Margin="2" Grid.Column="4" Grid.Row="1" Content="J"/>
-                <Button Margin="2" Grid.Column="5" Grid.Row="1" Content="K"/>
-                <Button Margin="2" Grid.Column="6" Grid.Row="1" Content="L"/>
-                <Button Margin="2" Grid.Column="7" Grid.Row="1" Content="Ł"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="0" Grid.Row="1" Content="F"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="1" Grid.Row="1" Content="G"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="2" Grid.Row="1" Content="H"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="3" Grid.Row="1" Content="I"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="4" Grid.Row="1" Content="J"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="5" Grid.Row="1" Content="K"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="6" Grid.Row="1" Content="L"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="7" Grid.Row="1" Content="Ł"/>
 
-                <Button Margin="2" Grid.Column="0" Grid.Row="2" Content="M"/>
-                <Button Margin="2" Grid.Column="1" Grid.Row="2" Content="N"/>
-                <Button Margin="2" Grid.Column="2" Grid.Row="2" Content="Ń"/>
-                <Button Margin="2" Grid.Column="3" Grid.Row="2" Content="O"/>
-                <Button Margin="2" Grid.Column="4" Grid.Row="2" Content="Ó"/>
-                <Button Margin="2" Grid.Column="5" Grid.Row="2" Content="P"/>
-                <Button Margin="2" Grid.Column="6" Grid.Row="2" Content="R"/>
-                <Button Margin="2" Grid.Column="7" Grid.Row="2" Content="S"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="0" Grid.Row="2" Content="M"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="1" Grid.Row="2" Content="N"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="2" Grid.Row="2" Content="Ń"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="3" Grid.Row="2" Content="O"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="4" Grid.Row="2" Content="Ó"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="5" Grid.Row="2" Content="P"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="6" Grid.Row="2" Content="R"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="7" Grid.Row="2" Content="S"/>
 
-                <Button Margin="2" Grid.Column="0" Grid.Row="3" Content="Ś"/>
-                <Button Margin="2" Grid.Column="1" Grid.Row="3" Content="T"/>
-                <Button Margin="2" Grid.Column="2" Grid.Row="3" Content="U"/>
-                <Button Margin="2" Grid.Column="3" Grid.Row="3" Content="W"/>
-                <Button Margin="2" Grid.Column="4" Grid.Row="3" Content="Y"/>
-                <Button Margin="2" Grid.Column="5" Grid.Row="3" Content="Z"/>
-                <Button Margin="2" Grid.Column="6" Grid.Row="3" Content="Ź"/>
-                <Button Margin="2" Grid.Column="7" Grid.Row="3" Content="Ż"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="0" Grid.Row="3" Content="Ś"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="1" Grid.Row="3" Content="T"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="2" Grid.Row="3" Content="U"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="3" Grid.Row="3" Content="W"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="4" Grid.Row="3" Content="Y"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="5" Grid.Row="3" Content="Z"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="6" Grid.Row="3" Content="Ź"/>
+                <Button Click="Button_Click" Margin="2" Grid.Column="7" Grid.Row="3" Content="Ż"/>
             </Grid>
         </Grid>
     </Border>
