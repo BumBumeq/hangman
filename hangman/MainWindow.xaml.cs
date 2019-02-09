@@ -45,6 +45,9 @@ namespace hangman
 
         private string choosen;
         private string convertedChoosen;
+
+        private int nextError = 0;
+        private Rectangle[] errorRectangles = new Rectangle[6];
         private Random randomGenerator;
 
         public MainWindow()
@@ -71,11 +74,19 @@ namespace hangman
             }
 
             this.word.Text = convertedChoosen;
+
+            errorRectangles[0] = this.error0;
+            errorRectangles[1] = this.error1;
+            errorRectangles[2] = this.error2;
+            errorRectangles[3] = this.error3;
+            errorRectangles[4] = this.error4;
+            errorRectangles[5] = this.error5;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.word.Text = "";
+            (sender as Button).IsEnabled = false;
 
             string tempChoosen = choosen.ToLower();
             string tempConvertedChoosen = convertedChoosen;
@@ -95,6 +106,12 @@ namespace hangman
             }
 
             this.word.Text = convertedChoosen;
+
+            if (convertedChoosen == tempConvertedChoosen && nextError < 6)
+            {
+                errorRectangles[nextError].Fill = new SolidColorBrush(System.Windows.Media.Colors.Red);
+                nextError++;
+            }
         }
     }
 }
